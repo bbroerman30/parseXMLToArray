@@ -1,6 +1,6 @@
 <?php
 //
-// parseXMLtoArray( ) -
+// parseXMLToArray( ) -
 //  
 //  (C) 2006 Brad Broerman bbroerman@bbroerman.net
 //  Released under the LGPL license - Use however you wish, as long as you keep this notice.
@@ -29,7 +29,7 @@
 //
 //
 
-function parseXMLtoArray( $inputString )
+function parseXMLToArray( $inputString )
 {
     $lastEndPos = 0;          // This is where we left off on the last iteration...
     $outputStack = array();    // This is where we will be assembling out output nodes.
